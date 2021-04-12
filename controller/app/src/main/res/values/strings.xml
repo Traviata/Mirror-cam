@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">controller</string>
+    <string name="button_play">Play</string>
+    <string name="button_stop">Stop</string>
+    <string name="IP"> </string>
+    <string name="Port"> </string>
+    <string name="Up"> △ </string>
+    <string name="Right"> ▷ </string>
+    <string name="Left"> ◁ </string>
+    <string name="Down"> ▽ </string>
+    <string name="Center"> □ </string>
+    <string name="LedOn"> ∠ + </string>
+    <string name="LedOff">∠ -</string>
+    <string name="CamUp"> BK </string>
+    <string name="CamDown">FRT</string>
+    <string name="IP1">1</string>
+    <string name="IP2">2</string>
+    <string name="IP3">3</string>
+    <string name="Connect">Connect</string>
+</resources>

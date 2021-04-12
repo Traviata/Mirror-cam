@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="IP"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/TextIPAddress"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/IP"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/editTextIPAddress"
+        android:inputType="text"
+        android:hint="192.168.000.000"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Port"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/TextPortAddress"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/Port"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/editTextPortAddress"
+        android:inputType="text"
+        android:hint="0000"/>
+
+        <Button
+            android:id="@+id/cam_dir"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="@string/Cam_Dir"
+            android:visibility="invisible" />
+
+</LinearLayout>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/Connect"
+        android:layout_marginBottom="30dip"
+        android:id="@+id/buttonConnect"/>
+
+</LinearLayout>
